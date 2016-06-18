@@ -11,26 +11,26 @@ Now is not the time for desert, now is the time for dinner
 
 For a set of triples, yielding a bi-gram (2 word) prefix, we will generate the following prefixes and suffix:
 
-Prefixes        Suffixes
---------        --------
-Now, is         not
-is, not         the
-not, the        time
-the, time       for
-time, for       desert
-for, desert     now
-desert, now     is
-now, is         not, the  
-is, the         time
-the, time       for
-time, for       desert, dinner
+    Prefixes        Suffixes
+    --------        --------
+    Now, is         not
+    is, not         the
+    not, the        time
+    the, time       for
+    time, for       desert
+    for, desert     now
+    desert, now     is
+    now, is         not, the  
+    is, the         time
+    the, time       for
+    time, for       desert, dinner
 
 You'll see a couple of the prefixes have TWO suffixes, this is because they repeat but one with a different suffix and one with the same suffix. Repeating this over piles and piles of text will start to enable you to build statistically real but logically meaningless sentences. Take this example output from my program after running it over Star Trek plot summaries:
 
-"attack." In fact, Yeoman Tamura's tricorder shows that Kirk has been killed after
-beaming down to the bridge, Kirk reminisces about having time to beam down. Kirk wants
-Spock to grab hold of him in a fist fight with Kirk and Spock try to escape, the collars
-are activated, subjecting them to an entrance, which then opens. Scotty saves the day by
-pretending to help Spock, and Mullhall voluntarily agree, and the others transported to
-the one which is not at all obvious what to make diplomatic advances. Meanwhile Kirk is
-able to get inside. McCoy and nerve pinches Chief at
+    "attack." In fact, Yeoman Tamura's tricorder shows that Kirk has been killed after
+    beaming down to the bridge, Kirk reminisces about having time to beam down. Kirk wants
+    Spock to grab hold of him in a fist fight with Kirk and Spock try to escape, the collars
+    are activated, subjecting them to an entrance, which then opens. Scotty saves the day by
+    pretending to help Spock, and Mullhall voluntarily agree, and the others transported to
+    the one which is not at all obvious what to make diplomatic advances. Meanwhile Kirk is
+    able to get inside. McCoy and nerve pinches Chief at
